@@ -75,7 +75,7 @@ Instale o modulo dentro do container
 Crie sua senha criptografada
 
     node -e "console.log(require('bcryptjs').hashSync('>Sua senha<', 8))"
-    node -e "console.log(require('bcryptjs').hashSync('Umasenhaquakquer', 8))"
+    node -e "console.log(require('bcryptjs').hashSync('Umasenhaqualquer', 8))"
 
 Vai gerar a chave criptografada como abaixo
 
