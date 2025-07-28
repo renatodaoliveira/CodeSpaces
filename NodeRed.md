@@ -8,7 +8,7 @@ Pré requisito: Acesse como Administrador
 
 Login no Servidor
 
-    ssh -i chaveprivada.key ubuntu@129.146.56.151
+    ssh -i chaveprivada.key ubuntu@>>IP da Máquina Virtual<<
     
 # Instalando Node Red
 
