@@ -52,15 +52,11 @@ Edita o mosquitto.conf
 
 Conteúdo mosquitto.conf
 
-  persistence true
-  
-  persistence_location /mosquitto/data/
-  
-  log_dest file /mosquitto/log/mosquitto.log
-  
-  allow_anonymous true
-  
-  listener 1883
+          persistence true
+          persistence_location /mosquitto/data/ 
+          log_dest file /mosquitto/log/mosquitto.log 
+          allow_anonymous true
+          listener 1883
 
 #Ctrl + O para salvar
 
