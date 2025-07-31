@@ -1,6 +1,6 @@
 # MQTT no docker Oracle Cloud
 
-Instalação do Docker
+1. Instalação do Docker
 
         sudo apt-get update
 
@@ -32,7 +32,7 @@ Adicione seu usuário ao docker
 
         sudo usermod -aG docker $USER
 
-#2. Instalação do Container Eclipse - Mosquitto
+2. Instalação do Container Eclipse - Mosquitto
 
 Crie as pastas:
 
@@ -62,7 +62,7 @@ Conteúdo mosquitto.conf
 
 #Ctrl + X para sair
 
-#3. Execução do Container
+3. Execução do Container
 
         docker run -d -p 1883:1883 -p 9001:9001 -v /mosquitto:/mosquitto eclipse-mosquitto
 
