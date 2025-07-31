@@ -53,16 +53,21 @@ Edita o mosquitto.conf
 Conteúdo mosquitto.conf
 
   persistence true
+  
   persistence_location /mosquitto/data/
+  
   log_dest file /mosquitto/log/mosquitto.log
+  
   allow_anonymous true
+  
   listener 1883
 
 #Ctrl + O para salvar
+
 #Ctrl + X para sair
 
 #3. Execução do Container
 
-docker run -d -p 1883:1883 -p 9001:9001 -v /mosquitto:/mosquitto eclipse-mosquitto
+        docker run -d -p 1883:1883 -p 9001:9001 -v /mosquitto:/mosquitto eclipse-mosquitto
 
 Tutorial´para AWS https://www.youtube.com/watch?v=z5vx93uKr_U
