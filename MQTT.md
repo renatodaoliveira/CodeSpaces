@@ -34,8 +34,16 @@ Adicione seu usuário ao docker
 
 #2. Instalação do Container Eclipse - Mosquitto
 
+Crie as pastas:
+
         sudo mkdir -p /mosquitto/config
+
+
+        
         sudo mkdir /mosquitto/data
+
+
+        
         sudo mkdir /mosquitto/log
 
 Edita o mosquitto.conf
