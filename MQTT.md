@@ -58,9 +58,9 @@ Conteúdo mosquitto.conf
           allow_anonymous true
           listener 1883
 
-#Ctrl + O para salvar
+Ctrl + O para salvar
 
-#Ctrl + X para sair
+Ctrl + X para sair
 
 3 Execução do Container
 
