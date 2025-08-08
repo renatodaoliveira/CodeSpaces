@@ -56,7 +56,19 @@ Conteúdo mosquitto.conf
           persistence_location /mosquitto/data/ 
           log_dest file /mosquitto/log/mosquitto.log 
           allow_anonymous true
+          
           listener 1883
+          protocol mqtt
+                
+          listener 8000
+          protocol websocket
+                
+          listener 8883
+          protocol mqtts
+                
+          listener 8884
+          protocol websockets
+          
 
 Ctrl + O para salvar
 
