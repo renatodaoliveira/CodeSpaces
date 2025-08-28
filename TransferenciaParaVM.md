@@ -12,6 +12,7 @@ Movendo arquivos para o docker
 
         docker cp /tmp/arquivo.extensao {nome do docker}:/usr/src/caminho/caminho_modules/@caminho/caminho/public/arquivo.extensao
 
+ 
 
         docker cp /tmp/favicon.ico mynodered:/usr/src/node-red/node_modules/@node-red/editor-client/public/favicon.ico
 
