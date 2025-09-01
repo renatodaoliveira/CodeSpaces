@@ -51,7 +51,7 @@ Verifique versões do docker
 
 Instale o Node Red
 
-    docker run -it -p 1880:1880 -v node_red_data:/data --name noderexp nodered/node-red
+    docker run -it -p 1880:1880 -v node_red_data:/data --name noderedxp nodered/node-red
 
 Implementando bloqueio de fluxo controle fluxos Node Red
 
@@ -66,6 +66,9 @@ Descubra o nome do container:
 Acesse seu container
 
     docker exec -it >nome do container< bash
+
+Exemplo
+
     docker exec -it mynodered bash
 
 Instale o modulo dentro do container
@@ -75,6 +78,9 @@ Instale o modulo dentro do container
 Crie sua senha criptografada
 
     node -e "console.log(require('bcryptjs').hashSync('>Sua senha<', 8))"
+
+Exemplo
+    
     node -e "console.log(require('bcryptjs').hashSync('umasenhaqualquer', 8))"
 
 Vai gerar a chave criptografada como abaixo
