@@ -6,7 +6,7 @@ Comando para envio
 
 Exemplo de envio de arquivo .ico
 
-        scp -i chaveprivada.key /workspaces/code/favicon.ico ubuntu@129.146.56.151:/tmp/favicon.ico
+        scp -i chaveprivada.key /workspaces/code/favicon.ico ubuntu@88.88.88.88:/tmp/favicon.ico
 
 Movendo arquivos para o docker
 
